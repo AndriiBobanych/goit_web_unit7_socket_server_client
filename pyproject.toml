@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goit-web-unit7-socket-server-client"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Bobanych <andrii.bobanych@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_unit7_socket_server_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
